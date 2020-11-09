@@ -1,0 +1,232 @@
+a.listlink {
+    pointer-events:none;
+    text-decoration: none;
+	color:#2F3436!important;
+}
+
+.inner {
+  padding: 1em;
+  border-radius: 1.5em;
+  width: 16em;
+  height: 16em;
+  margin-right: .8em;
+  margin-bottom: .8em;
+  background: #EFF0F6;
+  color:#2F3436;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.logo {
+  margin-top: .5em;
+  margin-right: .4em;
+  float: right;
+}
+
+.logo p{
+  font-family:'Open Sans';
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  line-height: .6em;
+  text-align: right;
+}
+
+.logo #stream {
+  font-size: .8em;
+  color: #787878;
+}
+
+.inner button {
+  border: .15em solid #D6D8E7;
+  width: 9em;
+  height: 3em;
+  background-color:#EFF0F6;
+  box-sizing: border-box;
+  color: inherit;
+  border-radius: 3em;
+  text-align: center;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.inner button:hover {
+  background-color: #E24242;
+  color: white;
+  border: none;
+}
+
+.inner button a{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+input[type="checkbox"] {
+  display: none;
+  pointer-events: none;
+}
+input[type="checkbox"] + label {
+  cursor: pointer;
+  font-size: 0.8em;
+  display: grid;
+  grid-template-columns: auto 3fr;
+}
+input[type="checkbox"] + label svg {
+  margin-top: 1em;
+  margin-left: 1em;
+  width: 2em;
+  stroke: #A0A3BD;
+  border-radius: 8px;
+  stroke-width: 5px;
+  fill: white;
+}
+input[type="checkbox"] + label svg .box {
+  pointer-events:auto;
+  stroke-dasharray: 320;
+  stroke-dashoffset: 0;
+  fill: white !important;
+}
+input[type="checkbox"] + label svg .check {
+  stroke-dasharray: 70;
+  stroke-dashoffset: 70;
+  fill: none;
+}
+input[type="checkbox"] + label span {
+  padding-top: 0.3em;
+  margin-left: 0.3em;
+}
+input[type="checkbox"]:checked + label .box {
+  stroke-dashoffset: 320;
+  fill: #B42B2B !important;
+}
+input[type="checkbox"]:checked + label .check {
+  stroke-dashoffset: 0;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin:round;
+  transition: stroke-dashoffset 0.3s linear;
+  stroke:#F7F7FC;
+}
+
+
+@media screen and (max-width: 748px){
+
+   /*-------------- Label Version ------------*/
+    .inner {
+	  padding: 1em;
+	  border-radius: .7em;
+	  width: 14em;
+	  height: 3em;
+	  margin-right: .2em;
+	  margin-bottom: .4em;
+	  }
+
+	a.listlink{
+		pointer-events:auto;
+		text-decoration:inherit;
+	}
+    .logo {
+      display:block;
+      width: 8em;
+      height: 1em;
+      margin-left: auto;
+	  margin-right:auto;
+      float: none;
+    }
+
+    .logo p{
+      display:none;
+    }
+
+	.logo svg {
+
+	}
+
+    .logo #stream {
+      display: none;
+    }
+
+    .inner button {
+      display:none;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+      pointer-events: none;
+    }
+    input[type="checkbox"] + label {
+      cursor: pointer;
+      font-size: 0.8em;
+      display: none;
+      grid-template-columns: auto 3fr;
+    }
+    input[type="checkbox"] + label svg .box {
+      display: none;
+      pointer-events: none;
+    }
+    input[type="checkbox"] + label svg .check {
+     display: none;
+     pointer-events: none;
+    }
+
+    /* ------------------Box Version -----------------
+    .inner {
+      padding: .75em;
+      border-radius: .7em;
+      width: 9em;
+      height: 9em;
+      margin-right: .8em;
+    }
+
+    .logo {
+      margin-top:.75em;
+      margin-left: .5em;
+      float: left;
+    }
+
+    .logo svg {
+      width: 90px;
+    }
+
+    .logo p{
+      margin-top: 1.25em;
+	  font-size: .8em;
+      line-height: .6em;
+      text-align: left;
+    }
+
+    .logo #stream {
+      display: none;
+    }
+
+    .inner button {
+      height: 2em;
+      border-radius: 1em;
+      text-align: center;
+      margin-top: 1em;
+    }
+
+    .inner button a{
+      font-size: .8em;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+      pointer-events: none;
+    }
+    input[type="checkbox"] + label {
+      cursor: pointer;
+      font-size: 0.8em;
+      display: grid;
+      grid-template-columns: auto 3fr;
+    }
+    input[type="checkbox"] + label svg .box {
+      display: none;
+      pointer-events: none;
+    }
+    input[type="checkbox"] + label svg .check {
+     display: none;
+     pointer-events: none;
+    }*/
+
+}
