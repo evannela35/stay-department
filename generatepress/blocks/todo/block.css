@@ -32,6 +32,14 @@ a.listlink {
   text-align: right;
 }
 
+#difficult{
+	margin-top: -1px;
+}
+
+#difficult p {
+	margin-top: .5em;
+}
+
 .logo #stream {
   font-size: .8em;
   color: #787878;
@@ -46,8 +54,9 @@ a.listlink {
   color: inherit;
   border-radius: 3em;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 7.5em;
   margin-left: 1em;
+  position: absolute;
 }
 
 .inner button:hover {
@@ -113,9 +122,8 @@ input[type="checkbox"]:checked + label .check {
 
    /*-------------- Label Version ------------*/
     .inner {
-	  padding: 1em;
 	  border-radius: .7em;
-	  width: 14em;
+	  width: 9em;
 	  height: 3em;
 	  margin-right: .2em;
 	  margin-bottom: .4em;
@@ -127,8 +135,8 @@ input[type="checkbox"]:checked + label .check {
 	}
     .logo {
       display:block;
-      width: 8em;
-      height: 1em;
+	  margin-top: 0em;
+      width: 4em;
       margin-left: auto;
 	  margin-right:auto;
       float: none;
@@ -139,7 +147,7 @@ input[type="checkbox"]:checked + label .check {
     }
 
 	.logo svg {
-
+		margin-top: -5px;
 	}
 
     .logo #stream {

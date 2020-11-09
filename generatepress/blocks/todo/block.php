@@ -7,7 +7,7 @@
       <path class="check" d="M22 12L13.75 21L10 16.9091"/>
     </svg>
   </label>
-  <div class="logo">
+  <div class="logo" id="<?php block_field('difficult')?>">
     <?php block_field( 'logo' ); ?>
     <p> Streaming </p>
     <p id="stream">6:00 KST</p>
