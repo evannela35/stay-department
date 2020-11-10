@@ -45,8 +45,6 @@ public function widget( $args, $instance ) {
     return;
   }
 
-  if ()
-
   echo $args['before_widget'];
 
   //if title is present
