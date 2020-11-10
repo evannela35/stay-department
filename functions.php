@@ -42,6 +42,8 @@ public function widget( $args, $instance ) {
   echo  __('<div class="profile">');
   if (is_user_logged_in()) {
     $user = wp_get_current_user();
+    echo um_user('display_name');
+    echo get_avatar($user->user_email, 32);
     return;
   }
 
@@ -55,7 +57,7 @@ public function widget( $args, $instance ) {
 
   //output
 
-  echo __( '<button id="login"><a href="">Login</a></button><button id="register"><a href="">Sign Up</a></button>' );
+  echo __( '<button id="login"><a href="/login">Login</a></button><button id="register"><a href="register">Sign Up</a></button>' );
   echo  __('</div>');
   echo $args['after_widget'];
 

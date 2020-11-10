@@ -7,17 +7,39 @@ Author URI: https://tomusborne.com & https://staydepartment.com
 Description: GeneratePress is a lightweight WordPress theme built with a focus on speed and usability. Performance is important to us, which is why a fresh GeneratePress install adds less than 10kb (gzipped) to your page size. We take full advantage of the new block editor (Gutenberg), which gives you more control over creating your content. If you use page builders, GeneratePress is the right theme for you. It is completely compatible with all major page builders, including Beaver Builder and Elementor. Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce. GeneratePress is fully responsive, uses valid HTML/CSS and is translated into over 25 languages by our amazing community of users. A few of our many features include microdata integration, 9 widget areas, 5 navigation locations, 5 sidebar layouts, dropdown menus (click or hover) and navigation color presets. Learn more and check out our powerful premium version at https://generatepress.com
 Version: 1.1
 */
+
+.profile {
+  width: 15em;
+  float: right;
+  margin-right: 1em;
+}
+
+.profile a {
+  display: inline-block;
+  height: 1em;
+  color: inherit;
+  font-weight: bold;
+  padding: .4em;
+}
+
+.profile img.gravatar {
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
 .profile a:hover{
   pointer-events: none;
 }
 .profile button {
-  border: .15em solid #D6D8E7;
-  padding: .15em;
+  border: .15em solid #303030;
+  padding: 0em;
   width: 7em;
   height: 2em;
-  background-color:#EFF0F6;
+  background-color: inherit;
   box-sizing: border-box;
-  color: inherit;
+  color: #303030;
   border-radius: 2em;
   text-align: center;
   position: inline-block;
@@ -26,10 +48,23 @@ Version: 1.1
 }
 
 .profile button:hover {
-  background-color:#fff;
+  border-color: #E24242;
+  color: #E24242;
+  transition: none;
 }
 
 .profile button a {
   font-size: .8em;
   color:inherit;
+  font-weight:600;
+}
+
+.profile #login {
+  background-color: #303030;
+  color:#F2f2f2;
+}
+
+.profile #login:hover {
+  background-color: #e24242;
+  transition: none;
 }
