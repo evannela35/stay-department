@@ -38,10 +38,14 @@ class profile_widget extends WP_Widget {
 
 public function widget( $args, $instance ) {
   $title = apply_filters( 'widget_title', $instance['title'] );
+
+  echo  __('<div class="profile">');
   if (is_user_logged_in()) {
     $user = wp_get_current_user();
-    
+    return;
   }
+
+  if ()
 
   echo $args['before_widget'];
 
@@ -54,7 +58,7 @@ public function widget( $args, $instance ) {
   //output
 
   echo __( '<button id="login"><a href="">Login</a></button><button id="register"><a href="">Sign Up</a></button>' );
-
+  echo  __('</div>');
   echo $args['after_widget'];
 
 }
