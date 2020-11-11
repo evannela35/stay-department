@@ -7,20 +7,26 @@ a.listlink {
 .link-block {
   padding: 1.5em;
   border-radius: 1.5em;
-  width: 13em;
-  height: 13em;
+  width: 15em;
+  height: 15em;
   margin-right: .8em;
   margin-bottom: .8em;
   background: #EFF0F6;
   color:#2F3436;
   display: inline-block;
   vertical-align:top;
+	position: relative;
 }
 
 .svg {
   margin-top: 1em;
   margin-left: .75em;
-  width:6em;
+  width:9em;
+}
+
+.svg svg {
+	width: 6em;
+	position:left;
 }
 
 .svg p{
@@ -29,14 +35,6 @@ a.listlink {
   margin-bottom: 1em;
   font-size: 1em;
   line-height: .6em;
-}
-
-#difficult{
-	margin-top: -1px;
-}
-
-#difficult p {
-	margin-top: .5em;
 }
 
 .svg #desc {
@@ -53,9 +51,9 @@ a.listlink {
   color: inherit;
   border-radius: 3em;
   text-align: center;
-  margin-top: 4em;
-  margin-left: .75em;
   position: absolute;
+  bottom: 1em;
+  left:1.5em;
 }
 
 .link-block button:hover {
@@ -94,6 +92,7 @@ a.listlink {
       margin-left: auto;
 	    margin-right:auto;
       float: none;
+		position: relative;
     }
 
     .svg p{
@@ -101,12 +100,17 @@ a.listlink {
     }
 
 	  .svg svg {
-		  margin-top: -5px;
+		  width:100%;
+		  position: absolute;
 	  }
 
     .svg #stream {
       display: none;
     }
+
+	#naver.link-block .svg {
+		margin-top:.4em;
+	}
 
     .link-block button {
       display:none;
