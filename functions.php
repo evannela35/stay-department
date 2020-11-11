@@ -98,3 +98,13 @@ public function update( $new_instance, $old_instance ) {
 }
 
 }
+
+function displayTodaysDate( $atts )
+
+{
+
+return date(get_option('date_format'));
+
+}
+
+add_shortcode( 'datetoday', 'displayTodaysDate');

@@ -75,14 +75,22 @@ Version: 1.1
   border-bottom: 3px solid #B42B2B;
 }
 
-.main-navigation {
-
-}
-
 .nav-float-right #site-navigation {
   margin-left: 1em;
 }
 
 .header-widget {
   margin-left:auto !important;
+}
+
+.one-container .site-content {
+	padding:0px;
+}
+
+.welcome_header {
+	border-bottom: 2px solid #979797;
+}
+
+.tutorial_header {
+	border-bottom: 2px solid #979797;
 }
