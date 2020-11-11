@@ -71,17 +71,17 @@ a.listlink {
   text-decoration: inherit;
 }
 
-input[type="checkbox"] {
+.inner input[type="checkbox"] {
   display: none;
   pointer-events: none;
 }
-input[type="checkbox"] + label {
+.inner input[type="checkbox"] + label {
   cursor: pointer;
   font-size: 0.8em;
   display: grid;
   grid-template-columns: auto 3fr;
 }
-input[type="checkbox"] + label svg {
+.inner input[type="checkbox"] + label svg {
   margin-top: 1em;
   margin-left: 1em;
   width: 2em;
@@ -90,26 +90,26 @@ input[type="checkbox"] + label svg {
   stroke-width: 5px;
   fill: white;
 }
-input[type="checkbox"] + label svg .box {
+.inner input[type="checkbox"] + label svg .box {
   pointer-events:auto;
   stroke-dasharray: 320;
   stroke-dashoffset: 0;
   fill: white !important;
 }
-input[type="checkbox"] + label svg .check {
+.inner input[type="checkbox"] + label svg .check {
   stroke-dasharray: 70;
   stroke-dashoffset: 70;
   fill: none;
 }
-input[type="checkbox"] + label span {
+.inner input[type="checkbox"] + label span {
   padding-top: 0.3em;
   margin-left: 0.3em;
 }
-input[type="checkbox"]:checked + label .box {
+.inner input[type="checkbox"]:checked + label .box {
   stroke-dashoffset: 320;
   fill: #B42B2B !important;
 }
-input[type="checkbox"]:checked + label .check {
+.inner input[type="checkbox"]:checked + label .check {
   stroke-dashoffset: 0;
   stroke-width: 2px;
   stroke-linecap: round;
@@ -159,21 +159,21 @@ input[type="checkbox"]:checked + label .check {
       display:none;
     }
 
-    input[type="checkbox"] {
+    .inner input[type="checkbox"] {
       display: none;
       pointer-events: none;
     }
-    input[type="checkbox"] + label {
+    .inner input[type="checkbox"] + label {
       cursor: pointer;
       font-size: 0.8em;
       display: none;
       grid-template-columns: auto 3fr;
     }
-    input[type="checkbox"] + label svg .box {
+    .inner input[type="checkbox"] + label svg .box {
       display: none;
       pointer-events: none;
     }
-    input[type="checkbox"] + label svg .check {
+    .inner input[type="checkbox"] + label svg .check {
      display: none;
      pointer-events: none;
     }
@@ -219,21 +219,21 @@ input[type="checkbox"]:checked + label .check {
       font-size: .8em;
     }
 
-    input[type="checkbox"] {
+    .inner input[type="checkbox"] {
       display: none;
       pointer-events: none;
     }
-    input[type="checkbox"] + label {
+    .inner input[type="checkbox"] + label {
       cursor: pointer;
       font-size: 0.8em;
       display: grid;
       grid-template-columns: auto 3fr;
     }
-    input[type="checkbox"] + label svg .box {
+    .inner input[type="checkbox"] + label svg .box {
       display: none;
       pointer-events: none;
     }
-    input[type="checkbox"] + label svg .check {
+    .inner input[type="checkbox"] + label svg .check {
      display: none;
      pointer-events: none;
     }*/

@@ -68,3 +68,21 @@ Version: 1.1
   background-color: #e24242;
   transition: none;
 }
+
+.main-navigation .main-nav ul li[class*="current-menu-"] > a{
+  color: inherit;
+  font-weight: bold;
+  border-bottom: 3px solid #B42B2B;
+}
+
+.main-navigation {
+
+}
+
+.nav-float-right #site-navigation {
+  margin-left: 1em;
+}
+
+.header-widget {
+  margin-left:auto !important;
+}
