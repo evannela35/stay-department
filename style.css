@@ -8,68 +8,6 @@ Description: generatepress child theme for Stay Department
 Version: 1.1
 */
 
-.profile {
-  width: 10em;
-  float: right;
-  margin-right: 1em;
-	font-weight: bold;
-}
-
-.profile a {
-  display: inline-block;
-  height: 1em;
-  color: inherit;
-  font-weight: bold;
-  padding: .4em;
-}
-
-.profile img.gravatar {
-  position: absolute;
-  border-radius: 50%;
-  margin-left: 1em;
-  margin-bottom: 1em;
-}
-
-.profile a:hover{
-  pointer-events: none;
-}
-.profile button {
-  border: .15em solid #303030;
-  padding: 0em;
-  width: 7em;
-  height: 2em;
-  background-color: inherit;
-  box-sizing: border-box;
-  color: #303030;
-  border-radius: 2em;
-  text-align: center;
-  position: inline-block;
-  pointer-events: auto;
-  margin-right: .3em;
-}
-
-.profile button:hover {
-  border-color: #E24242;
-  color: #E24242;
-  transition: none;
-}
-
-.profile button a {
-  font-size: .8em;
-  color:inherit;
-  font-weight:600;
-}
-
-.profile #login {
-  background-color: #303030;
-  color:#F2f2f2;
-}
-
-.profile #login:hover {
-  background-color: #e24242;
-  transition: none;
-}
-
 .main-navigation .main-nav ul li[class*="current-menu-"] > a{
   color: inherit;
   font-weight: bold;
